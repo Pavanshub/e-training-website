@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Man from "../assets/Features.jpg";
 import GetStarted from "./GetStarted";
 

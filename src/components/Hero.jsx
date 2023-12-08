@@ -1,5 +1,5 @@
-import React from "react";
-import Typed from "react-typed";
+// import React from "react";
+// import Typed from "react-typed";
 // import GetStarted from "./GetStarted";
 function Hero() {
   return (
@@ -13,15 +13,15 @@ function Hero() {
         </h1>
         <div className="flex justify-center items-center">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold italic py-4">
-            By joining, Learn --
+            By joining, Learn <br /><span className="italic text-[#00df9a] text-4xl">Web Development</span>
           </p>
-            <Typed
+            {/* <Typed
               className="md:text-5xl sm:text-4xl font-bold pl-2 text-[#00df9a] italic"
               strings={["HTML", "CSS", "JavaScript"]}
               typeSpeed={120}
               backSpeed={140}
               loop
-            />
+            /> */}
         </div>
         <p className="md:text-2xl text-xl font-bold text-gray-500">Enhance your skills & become a Frontend Dev.</p>
         <button className="bg-[#00df9a] w-28 p-1 font-medium mx-auto rounded-md text-black mt-3">Get Started</button>

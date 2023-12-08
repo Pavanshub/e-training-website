@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Basic from "../assets/basic.png";
 import Frontend from "../assets/frontend.png";
 import Fullstack from "../assets/fullstack.png";
